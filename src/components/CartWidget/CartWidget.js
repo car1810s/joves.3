@@ -1,7 +1,7 @@
 
 
 import cart from './assets/cart.svg'
-import "../NavBar/NavBar.css"
+
 
 const CartWidget = () => {
      return(

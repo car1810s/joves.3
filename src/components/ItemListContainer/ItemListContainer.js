@@ -1,11 +1,27 @@
+import listaProductos from "../../asyncMock"
 
+import {Link} from "react-router-dom"
 
 function ItemListContainer(){
-    return(
-        <div>
-            <h1>ItemListContainer</h1>
-        </div>
-    )
-}
+  console.log(listaProductos)
 
-export default ItemListContainer;
+    return(
+      <div >
+          <h2>Productos</h2>
+          <div className="galeria">
+            {listaProductos.map((producto)=>{
+              return(
+                <article>
+                  <h4>{producto.title}</h4>
+                  <img src={producto.image} alt={producto.title}/>
+                  <Link to={`/productos/${producto.id}`}>Detalle</Link>
+                </article>
+              )
+            })}
+          </div>
+      </div>
+  
+    )
+  
+  }
+  export default ItemListContainer;
