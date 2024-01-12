@@ -4,7 +4,7 @@ const listaProductos=[
     "title": "Barra Block 38g",
     "price": 500,
     "description": "Barra de chocolate con mani de 38g",
-    "category": "chocolate",
+    
     "image": "https://i0.wp.com/golmarymar.com.ar/wp-content/uploads/321.jpg?fit=600%2C600&ssl=1",
     "rating": {
     "rate": 3.9,
