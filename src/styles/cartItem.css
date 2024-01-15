@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.cardItem{
+   border: 1px solid black ;
+   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   border-radius: 10px;
+   height: 400px;
+   width: 260px;
+   padding: 20px;
+   margin:20px;
+   justify-content: center;
+   flex-direction: column;
+   display: flex;
+}
+
+.cardItem .cardImg{
+    
+    height: 50%;
+    display: flex;
+    justify-content: center;
+}
+.cardItem .cardImg img{
+    width: 100%;
+    transform-scale:(0.5)
+}
+.cardDescription{
+   
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+}
+.cardItem .description{
+    display: none;
+}
+
+.cardItem .cantidad2{
+   color: black;
+   font-size: 16px;
+   margin: 6px o
+
+}
+
+.cardItem .title{
+    font-size: 21px;
+    margin: 6px 0px;
+}
+
+.cardDescription .description{
+    display: none;
+}
+
+.cardItem .precio{
+    color: orange;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 6px 0px;
+}
+
+
+.buttons{
+    height: 15%;
+    display: flex;
+   align-items: center;
+
+}
+
+.buttons #detalles{
+    width: 45%;
+    height: 80%;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 10px ;
+}
+.buttons #AddCart{
+    width: 45%;
+    height: 80%;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px;
+   
+}

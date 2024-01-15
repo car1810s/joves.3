@@ -1,0 +1,4 @@
+.containerCartItems{
+    display: flex;
+    flex-wrap: wrap;
+}
