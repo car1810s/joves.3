@@ -23,10 +23,11 @@
     height: 50%;
     display: flex;
     justify-content: center;
+    overflow: hidden;
 }
 .cardItem .cardImg img{
-    width: 100%;
-    transform-scale:(0.5)
+    width:200px;
+    height: 160px
 }
 .cardDescription{
    
